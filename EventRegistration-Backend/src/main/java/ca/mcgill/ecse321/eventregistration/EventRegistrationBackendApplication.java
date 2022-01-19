@@ -13,7 +13,7 @@ public class EventRegistrationBackendApplication {
     SpringApplication.run(EventRegistrationBackendApplication.class, args);
   }
 
-  // Request Maps
+  // Request Map
   @RequestMapping("/")
   public String greeting(){
     return "Hello world!";
